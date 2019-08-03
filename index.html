@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Enigma | Home Text Rotator</title>
+  <title>Amanda Chau | Software Developer</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/magnific-popup.css" />
   <link rel="stylesheet" href="css/font-icons.css" />
-  <link rel="stylesheet" href="revolution/css/settings.css" />
+  <!-- <link rel="stylesheet" href="revolution/css/settings.css" /> -->
   <link rel="stylesheet" href="css/rev-slider.css" />
   <link rel="stylesheet" href="css/sliders.css">
   <link rel="stylesheet" href="css/style.css" />
@@ -61,7 +61,7 @@
               <div class="logo-container">
                 <div class="logo-wrap local-scroll">
                   <a href="#home">
-                    <!-- <img class="logo" src="img/logo_light.png" alt="logo"> -->
+
                   </a>
                 </div>
               </div>
@@ -102,7 +102,7 @@
                   <!-- <a href="#"><i class="fa fa-behance"></i></a> -->
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/amanda-p-chau/"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/amanda-p-chau/" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <!-- <li>
                   <a href="#"><i class="fa fa-twitter"></i></a>
@@ -130,7 +130,7 @@
         <div class="hero-holder">
           <div class="hero-message text-rotator">
             <h1>Amanda Chau</h1>
-            <h2 class="hero-subtitle"><strong>Junior Software Developer</strong></h2>
+            <h2 class="hero-subtitle"><strong>Software Developer</strong></h2>
             <h2 class="hero-subtitle hidden-xs">Looking for full-stack opportunities in Sydney</h2>
             <div class="buttons-holder mt-30">
               <!-- <a href="#" class="btn btn-lg btn-transparent">Learn More</a> -->
@@ -209,8 +209,9 @@
                   <img src="img/amanda/tictactoe.png" alt="">
                   <div class="portfolio-overlay">
                     <div class="project-icons">
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project0-modal">
                         <i class="fa fa-search"></i>
+                        <p>More info</p>
                       </button>
                       <!-- <a href="img/amanda/tictactoe.png" title="tictactoe"><i class="fa fa-search"></i></a> -->
                       <!-- <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a> -->
@@ -231,8 +232,12 @@
                   <img src="img/amanda/yoga.png" alt="">
                   <div class="portfolio-overlay">
                     <div class="project-icons">
-                      <a href="img/amanda/yoga.png" class="lightbox-gallery" title="yoga"><i class="fa fa-search"></i></a>
-                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1-modal">
+                        <i class="fa fa-search"></i>
+                        <p>More info</p>
+                      </button>
+                      <!-- <a href="img/amanda/yoga.png" class="lightbox-gallery" title="yoga"><i class="fa fa-search"></i></a>
+                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a> -->
                     </div>
                   </div>
                 </div>
@@ -249,8 +254,12 @@
                   <img src="img/amanda/homes.png" alt="">
                   <div class="portfolio-overlay">
                     <div class="project-icons">
-                      <a href="img/amanda/homes.png" class="lightbox-gallery" title="homes"><i class="fa fa-search"></i></a>
-                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2-modal">
+                        <i class="fa fa-search"></i>
+                        <p>More info</p>
+                      </button>
+                      <!-- <a href="img/amanda/homes.png" class="lightbox-gallery" title="homes"><i class="fa fa-search"></i></a>
+                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a> -->
                     </div>
                   </div>
                 </div>
@@ -267,8 +276,12 @@
                   <img src="img/amanda/rocarr.png" alt="">
                   <div class="portfolio-overlay">
                     <div class="project-icons">
-                      <a href="img/amanda/rocarr.png" class="lightbox-gallery" title="rocarr"><i class="fa fa-search"></i></a>
-                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project3-modal">
+                        <i class="fa fa-search"></i>
+                        <p>More info</p>
+                      </button>
+                      <!-- <a href="img/amanda/rocarr.png" class="lightbox-gallery" title="rocarr"><i class="fa fa-search"></i></a>
+                      <a href="portfolio-single.html" class="project-icon"><i class="fa fa-link"></i></a> -->
                     </div>
                   </div>
                 </div>
@@ -286,18 +299,14 @@
     </section> <!-- end portfolio-->
 
 
-<!-- Model -->
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button> -->
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledb-1="exampleModalCenterTitle" aria-hidden="true">
+
+<!-- Modal project-0-->
+<div class="modal fade" id="project0-modal" tabindex="-1" role="dialog" aria-labelledb-1="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Tic Tac Toe</h5>
+        <h2 class="modal-title" id="exampleModalLongTitle">Tic Tac Toe</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -309,8 +318,8 @@
 
       <div>
           <br/>
-          <a href="https://github.com/amandachau36/tic-tac-toe" class="btn btn-sm btn-dark">View Repo</a>
-          <a href="https://amandachau36.github.io/tic-tac-toe/" class="btn btn-sm btn-dark">View Live</a>
+          <a href="https://github.com/amandachau36/tic-tac-toe" target="_blank" class="btn btn-sm btn-dark">View Repo</a>
+          <a href="https://amandachau36.github.io/tic-tac-toe/" target="_blank" class="btn btn-sm btn-dark">View Live</a>
       </div>
 
 
@@ -336,6 +345,150 @@
 
 <!-- Model -->
 
+<!-- Modal project-1 -->
+<div class="modal fade" id="project1-modal" tabindex="-1" role="dialog" aria-labelledb-1="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Sydney Yoga</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+          <img src="img/amanda/tictactoe-p1.png" alt="" width="75%">
+      </div>
+
+      <div>
+          <br/>
+          <a href="https://github.com/amandachau36/project-1" target="_blank" class="btn btn-sm btn-dark">View Repo</a>
+          <a href="https://sydney-yoga.herokuapp.com/" target="_blank" class="btn btn-sm btn-dark">View Live</a>
+      </div>
+
+
+      <div>
+        <br/>
+        <p> A scheduling platform for yoga students and freelance instructors. Instructors can create reocurring or single classes with options to edit or delete. Students can book and cancel classes.  Other features include: encrypted login, google maps to display class location, a list of students is visible only to the instructor who created the class, and images can be loaded to profiles and each class. </p>
+
+        <h4>Tech Used</h4>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Gems: pry-rails, cloudinary, rails 12 factor, geocoder, jquery</li>
+          <li>APIs: Google Maps JavaScript API, Google Geocoding API</li>
+          <li>HTML/CSS</li>
+        </ul>
+
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Model project-1 -->
+
+<!-- Modal project-2 -->
+<div class="modal fade" id="project2-modal" tabindex="-1" role="dialog" aria-labelledb-1="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Find Homes</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+          <img src="img/amanda/tictactoe-p1.png" alt="" width="75%">
+      </div>
+
+      <div>
+          <br/>
+          <a href="https://github.com/amandachau36/rails-project-2" target="_blank" class="btn btn-sm btn-dark">View Repo</a>
+          <a href="https://parryjos1.github.io/find-homes-react-frontend/" target="_blank" class="btn btn-sm btn-dark">View Live</a>
+      </div>
+
+      <div>
+        <br/>
+        <p> Find properties for sale by drawing an area on Google Maps! Also, option to specify minimum number of bedrooms/bathrooms and max price or search properties by suburb. Other features include user authentication with JSON Web Tokens (JWT), logged-in users can add and delete properties from their search to their wish lists and the show page for properties is always up-to-date with the Domain API - only a small subset of data about each saved property is stored in the database and a new axios request is made for the show page</p>
+        <br/>
+        <h4>Back End Tech Used</h4>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Gems: pry-rails, knock, bcrypt, rails 12 factor, rack-cors, httparty</li>
+          <li>Domain API https://developer.domain.com.au (OAuth)</li>
+          <li>JWT</li>
+        </ul>
+        <br/>
+        <h4>Front End Tech Used</h4>
+        <ul>
+          <li>React/JavaScript</li>
+          <li>NPM packages: axios, google-map-react, react-router-dom, gh-pages</li>
+          <li>Google Maps API</li>
+          <li>HTML/CSS</li>
+        </ul>
+
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Model project-2 -->
+
+<!-- Modal project-3 -->
+<div class="modal fade" id="project3-modal" tabindex="-1" role="dialog" aria-labelledb-1="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">ROCARR</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+          <img src="img/amanda/tictactoe-p1.png" alt="" width="75%">
+      </div>
+
+      <div>
+          <br/>
+          <a href="https://github.com/amandachau36/rocarr" target="_blank" class="btn btn-sm btn-dark">View Repo</a>
+          <a href="https://amandachau36.github.io/rocarr-react/" target="_blank" class="btn btn-sm btn-dark">View Live</a>
+      </div>
+
+
+      <div>
+        <br/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum laborum perspiciatis, debitis praesentium dolores harum id reiciendis inventore fugit, possimus quidem. Aliquid atque fugit vitae, maxime iste saepe nobis!</p>
+        <h4>Tech Used</h4>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Model project-3 -->
+
+
 
 
 
@@ -350,7 +503,7 @@
           </div>
 
           <div class="col-md-3 col-xs-12 cta-button">
-            <a href="https://github.com/amandachau36" class="btn btn-lg btn-color"><img width="70vw" src="img/amanda/GitHub_Logo_White.png">
+            <a href="https://github.com/amandachau36" target="_blank" class="btn btn-lg btn-color"><img width="70vw" src="img/amanda/GitHub_Logo_White.png">
             <img width="30vw" src="img/amanda/GitHub-Mark-Light-64px.png"></a>
           </div>
 
@@ -367,7 +520,7 @@
 
           <div class="col-xs-12">
             <h2>Learn more about my work experience</h2>
-            <a href="https://drive.google.com/file/d/1sUy7-AggJiQLXRGKtdYIDZzbv717gUfp/view?usp=sharing" class="btn btn-lg btn-transparent">Download CV</a>
+            <a href="https://drive.google.com/file/d/1sUy7-AggJiQLXRGKtdYIDZzbv717gUfp/view?usp=sharing" target="_blank" class="btn btn-lg btn-transparent">Download CV</a>
             <!-- <a href="portfolio-contact.html" class="btn btn-lg btn-white">Contact Me</a> -->
           </div>
 
@@ -426,42 +579,11 @@
               <p>Project Management</p>
               <p>APIs</p>
               <p>Wireframing (Figma)</p>
-              <p>GitHub</p>
+              <p>Problem Solving</p>
             </div>
           </div> <!-- end service item -->
 
-          <!-- <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-User hi-icon"></i>
-              </a>
-              <h3>Support</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>
-            </div>
-          </div>  -->
-          <!-- end service item -->
 
-          <!-- <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-Settings hi-icon"></i>
-              </a>
-              <h3>Development</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>
-            </div>
-          </div>  -->
-          <!-- end service item -->
-
-          <!-- <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-DesktopMonitor hi-icon"></i>
-              </a>
-              <h3>Web Design</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>
-            </div>
-          </div>  -->
-          <!-- end service item -->
 
         </div>
       </div>
@@ -567,14 +689,14 @@
         <div class="row">
 
           <div class="col-md-4">
-            <!-- <h5>Get in Touch</h5> -->
+
 
             <div class="contact-item">
               <div class="contact-icon">
                 <i class="icon icon-Phone"></i>
               </div>
               <h6>LinkedIn</h6>
-              <a href="https://linkedin.com/in/amanda-p-chau/">linkedin.com/in/amanda-p-chau/</a>
+              <a href="https://linkedin.com/in/amanda-p-chau/" target="_blank">linkedin.com/in/amanda-p-chau/</a>
             </div> <!-- end phone number -->
 
             <div class="contact-item">
@@ -582,7 +704,7 @@
                 <i class="icon icon-Mail"></i>
               </div>
               <h6>E-mail</h6>
-              <a href="mailto:amandachau36@gmail.com">amandachau36@gmail.com</a>
+              <a href="mailto:amandachau36@gmail.com" target="_blank">amandachau36@gmail.com</a>
             </div> <!-- end email -->
 
           </div>
@@ -591,8 +713,7 @@
       </div>
     </section> <!-- end contact -->
 
-    <!-- Google Map -->
-    <!-- <div id="google-map" class="gmap" data-address="V Tytana St, Manila, Philippines"></div> -->
+
 
     <!-- Footer -->
     <footer class="footer minimal bg-dark">
@@ -602,18 +723,18 @@
           <div class="col-md-4 col-md-offset-4">
 
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
-              <h2>
-                <a href="#home" class="color-white"></a>
-              </h2>
+              <h3>
+                <a href="#home" class="color-white">Amanda Chau </a>
+              </h3>
+              <p><a href="#home" class="color-white">Software Developer</a>
+              </p>
             </div>
 
-            <!-- <div class="socials footer-socials">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-behance"></i></a>
-            </div>  -->
+
+
+            <div class="socials footer-socials">
+              <a href="https://www.linkedin.com/in/amanda-p-chau/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
             <!-- end socials -->
 <!--
             <span class="copyright text-center">
@@ -635,11 +756,8 @@
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!--
-    1. Generate your key here - https://developers.google.com/maps/documentation/javascript/get-api-key
-    2. Paste your key in the script below.
-  -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQ3_zzRfW-hYspkwr5kvwCwLPGZsN4nw"></script>
-  <script type="text/javascript" src="js/gmap3.js"></script>
+
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
